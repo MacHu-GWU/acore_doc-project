@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
 """
-Package Description.
+My Azerothcore World of Warcraft Private Server DevOps Project Master Document.
 """
 
 from ._version import __version__
 
-__short_description__ = "Package short description."
+__short_description__ = "My Azerothcore World of Warcraft Private Server DevOps Project Master Document."
 __license__ = "MIT"
 __author__ = "Sanhe Hu"
 __author_email__ = "husanhe@gmail.com"

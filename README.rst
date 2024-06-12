@@ -16,6 +16,9 @@
 
 Welcome to ``acore_doc`` Documentation
 ==============================================================================
+.. image:: https://acore-doc.readthedocs.io/en/latest/_static/acore_doc-logo.png
+    :target: https://acore-doc.readthedocs.io/en/latest/
+
 在我的 GitHub 账号下有许多以 ``acore_`` 开头的开源项目 (`点这里查看完整列表 <https://github.com/MacHu-GWU?tab=repositories&q=acore&type=&language=&sort=>`_). 这些项目都是我使用 `azerothcore <https://www.azerothcore.org/>`_ 这个魔兽世界巫妖王之怒开源模拟器部署我个人使用的私服的一些工具和库. 通常这些项目都有自己单独的文档. 而这个 ``acore_doc`` 项目则是用来作为一个 Master doc, 来把这些项目的作用串在一起形成一个总览的文档.
 
 
