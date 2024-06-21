@@ -26,71 +26,92 @@ Projects
 ------------------------------------------------------------------------------
 以下是我按照从 0 开始搭建私服的逻辑顺序排列的项目列表:
 
-.. list-table:: Title of the table
-    :widths: 10 10 10 10
+.. list-table:: Title
     :header-rows: 1
+    :stub-columns: 0
 
     * - Package
-      - Latest Version
       - Description
+      - Document
+      - Version
       - CI
     * - `acore_constants <https://github.com/MacHu-GWU/acore_constants-project>`_
+      - AzerothCore World of Warcraft server project constants variables.
+      - .. image:: https://readthedocs.org/projects/acore-constants/badge/?version=latest
+            :target: https://acore-constants.readthedocs.io/en/latest/
       - .. image:: https://img.shields.io/pypi/v/acore-constants.svg
             :target: https://pypi.python.org/pypi/acore-constants
-      - AzerothCore World of Warcraft server project constants variables.
       - .. image:: https://github.com/MacHu-GWU/acore_constants-project/actions/workflows/main.yml/badge.svg
             :target: https://github.com/MacHu-GWU/acore_constants-project/actions?query=workflow:CI
     * - `acore_paths <https://github.com/MacHu-GWU/acore_paths-project>`_
+      - Azerothcore World of Warcraft Server File / Folder structure definition.
+      - .. image:: https://readthedocs.org/projects/acore-paths/badge/?version=latest
+            :target: https://acore-paths.readthedocs.io/en/latest/
       - .. image:: https://img.shields.io/pypi/v/acore-paths.svg
             :target: https://pypi.python.org/pypi/acore-paths
-      - Azerothcore World of Warcraft Server File / Folder structure definition.
       - .. image:: https://github.com/MacHu-GWU/acore_paths-project/actions/workflows/main.yml/badge.svg
             :target: https://github.com/MacHu-GWU/acore_paths-project/actions?query=workflow:CI
     * - `acore_conf <https://github.com/MacHu-GWU/acore_conf-project>`_
+      - Azerothcore WOW ``authserver.conf``, ``worldserver.conf`` file management.
+      - .. image:: https://readthedocs.org/projects/acore-conf/badge/?version=latest
+            :target: https://acore-conf.readthedocs.io/en/latest/
       - .. image:: https://img.shields.io/pypi/v/acore-conf.svg
             :target: https://pypi.python.org/pypi/acore-conf
-      - Azerothcore WOW *.conf file management.
       - .. image:: https://github.com/MacHu-GWU/acore_conf-project/actions/workflows/main.yml/badge.svg
             :target: https://github.com/MacHu-GWU/acore_conf-project/actions?query=workflow:CI
     * - `acore_server_metadata <https://github.com/MacHu-GWU/acore_server_metadata-project>`_
+      - Azerothcore WOW server metadata for Fleet management.
+      - .. image:: https://readthedocs.org/projects/acore-server-metadata/badge/?version=latest
+            :target: https://acore-server-metadata.readthedocs.io/en/latest/
       - .. image:: https://img.shields.io/pypi/v/acore-server-metadata.svg
             :target: https://pypi.python.org/pypi/acore-server-metadata
-      - Azerothcore WOW server metadata for Fleet management.
       - .. image:: https://github.com/MacHu-GWU/acore_server_metadata-project/actions/workflows/main.yml/badge.svg
             :target: https://github.com/MacHu-GWU/acore_server_metadata-project/actions?query=workflow:CI
     * - `acore_server_config <https://github.com/MacHu-GWU/acore_server_config-project>`_
+      - Azerothcore World of Warcraft fleet of Servers configuration management.
+      - .. image:: https://readthedocs.org/projects/acore-server-config/badge/?version=latest
+            :target: https://acore-server-config.readthedocs.io/en/latest/
       - .. image:: https://img.shields.io/pypi/v/acore-server-config.svg
             :target: https://pypi.python.org/pypi/acore-server-config
-      - Azerothcore World of Warcraft fleet of Servers configuration management.
       - .. image:: https://github.com/MacHu-GWU/acore_server_config-project/actions/workflows/main.yml/badge.svg
             :target: https://github.com/MacHu-GWU/acore_server_config-project/actions?query=workflow:CI
     * - `acore_server <https://github.com/MacHu-GWU/acore_server-project>`_
+      - AzerothCore World of Warcraft logical server data model, and per server level operation.
+      - .. image:: https://readthedocs.org/projects/acore-server/badge/?version=latest
+            :target: https://acore-server.readthedocs.io/en/latest/
       - .. image:: https://img.shields.io/pypi/v/acore-server.svg
             :target: https://pypi.python.org/pypi/acore-server
-      - AzerothCore World of Warcraft logical server data model, and per server level operation.
       - .. image:: https://github.com/MacHu-GWU/acore_server-project/actions/workflows/main.yml/badge.svg
             :target: https://github.com/MacHu-GWU/acore_server-project/actions?query=workflow:CI
     * - `acore_soap_app <https://github.com/MacHu-GWU/acore_soap_app-project>`_
+      - Azerothcore World of Warcraft Soap Remote Access Python Library.
+      - .. image:: https://readthedocs.org/projects/acore-soap-app/badge/?version=latest
+            :target: https://acore-soap-app.readthedocs.io/en/latest/
       - .. image:: https://img.shields.io/pypi/v/acore-soap-app.svg
             :target: https://pypi.python.org/pypi/acore-soap-app
-      - Azerothcore World of Warcraft Soap Remote Access Python Library.
       - .. image:: https://github.com/MacHu-GWU/acore_soap_app-project/actions/workflows/main.yml/badge.svg
             :target: https://github.com/MacHu-GWU/acore_soap_app-project/actions?query=workflow:CI
     * - `acore_db_ssh_tunnel <https://github.com/MacHu-GWU/acore_db_ssh_tunnel-project>`_
+      - Create Database SSH Tunnel for Azerothcore World of Warcraft MySQL Database.
+      - .. image:: https://readthedocs.org/projects/acore-db-ssh-tunnel/badge/?version=latest
+            :target: https://acore-db-ssh-tunnel.readthedocs.io/en/latest/
       - .. image:: https://img.shields.io/pypi/v/acore-db-ssh-tunnel.svg
             :target: https://pypi.python.org/pypi/acore-db-ssh-tunnel
-      - Create Database SSH Tunnel for Azerothcore World of Warcraft MySQL Database.
       - .. image:: https://github.com/MacHu-GWU/acore_db_ssh_tunnel-project/actions/workflows/main.yml/badge.svg
             :target: https://github.com/MacHu-GWU/acore_db_ssh_tunnel-project/actions?query=workflow:CI
     * - `acore_db_app <https://github.com/MacHu-GWU/acore_db_app-project>`_
+      - Azerothcore World of Warcraft Database Application.
+      - .. image:: https://readthedocs.org/projects/acore-db-app/badge/?version=latest
+            :target: https://acore-db-app.readthedocs.io/en/latest/
       - .. image:: https://img.shields.io/pypi/v/acore-db-app.svg
             :target: https://pypi.python.org/pypi/acore-db-app
-      - Azerothcore World of Warcraft Database Application.
       - .. image:: https://github.com/MacHu-GWU/acore_db_app-project/actions/workflows/main.yml/badge.svg
             :target: https://github.com/MacHu-GWU/acore_db_app-project/actions?query=workflow:CI
     * - `acore_server_bootstrap <https://github.com/MacHu-GWU/acore_server_bootstrap-project>`_
-      - .. image:: https://img.shields.io/github/v/release/MacHu-GWU/acore_server_bootstrap-project
-            :target: https://pypi.python.org/pypi/acore-server-bootstrap
       - Bootstrap an EC2 instance with the latest Azerothcore core to be game play ready.
+      - .. image:: https://readthedocs.org/projects/acore-server-bootstrap/badge/?version=latest
+            :target: https://acore-server-bootstrap.readthedocs.io/en/latest/
+      - .. image:: https://img.shields.io/pypi/v/acore-server-bootstrap.svg
+            :target: https://pypi.python.org/pypi/acore-server-bootstrap
       - .. image:: https://github.com/MacHu-GWU/acore_server_bootstrap-project/actions/workflows/main.yml/badge.svg
             :target: https://github.com/MacHu-GWU/acore_server_bootstrap-project/actions?query=workflow:CI
