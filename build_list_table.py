@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
 
-from rstobj import ListTable, Image
+from pathlib_mate import Path
+from rstobj import ListTable
 
 
 data = [
+    (
+        "acore_ami",
+        "About Build and Manage Azerothcore WOTLK Amazon machine image.",
+    ),
     (
         "acore_constants",
         "AzerothCore World of Warcraft server project constants variables.",
@@ -26,8 +31,28 @@ data = [
         "AzerothCore World of Warcraft logical server data model, and per server level operation.",
     ),
     (
-        "acore_soap_app",
+        "acore_soap",
+        "Azerothcore World of Warcraft Soap request and response Python library.",
+    ),
+    (
+        "acore_soap_agent",
+        "An agent deployed along with the azerothcore worldserver.",
+    ),
+    (
+        "acore_soap_remote",
+        "An SDK for running Azerothcore GM command remotely in batch securely.",
+    ),
+    (
+        "acore_soap_app (Legacy)",
         "Azerothcore World of Warcraft Soap Remote Access Python Library.",
+    ),
+    (
+        "acore_server_monitoring_core",
+        "Azerothcore Server monitoring core Python library.",
+    ),
+    (
+        "acore_server_monitoring_measurement",
+        "Capture Azerothcore server monitoring measurement data.",
     ),
     (
         "acore_db_ssh_tunnel",
@@ -71,4 +96,7 @@ ltable = ListTable(
     title="Title",
     header=True,
 )
-print(ltable.render())
+content = ltable.render()
+path = Path.dir_here(__file__).joinpath("tmp", "list-table.rst")
+path.parent.mkdir_if_not_exists()
+path.write_text(content)
