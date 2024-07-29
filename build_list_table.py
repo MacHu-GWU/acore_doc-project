@@ -43,8 +43,8 @@ data = [
         "An SDK for running Azerothcore GM command remotely in batch securely.",
     ),
     (
-        "acore_soap_app (Legacy)",
-        "Azerothcore World of Warcraft Soap Remote Access Python Library.",
+        "acore_soap_app",
+        "(Legacy) Azerothcore World of Warcraft Soap Remote Access Python Library.",
     ),
     (
         "acore_server_monitoring_core",

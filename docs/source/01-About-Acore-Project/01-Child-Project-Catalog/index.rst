@@ -91,14 +91,14 @@ Child Project Catalog
             :target: https://pypi.python.org/pypi/acore-soap-remote
       - .. image:: https://github.com/MacHu-GWU/acore_soap_remote-project/actions/workflows/main.yml/badge.svg
             :target: https://github.com/MacHu-GWU/acore_soap_remote-project/actions?query=workflow:CI
-    * - `acore_soap_app (Legacy) <https://github.com/MacHu-GWU/acore_soap_app (Legacy)-project>`_
-      - Azerothcore World of Warcraft Soap Remote Access Python Library.
-      - .. image:: https://readthedocs.org/projects/acore-soap-app (Legacy)/badge/?version=latest
-            :target: https://acore-soap-app (Legacy).readthedocs.io/en/latest/
-      - .. image:: https://img.shields.io/pypi/v/acore-soap-app (Legacy).svg
-            :target: https://pypi.python.org/pypi/acore-soap-app (Legacy)
-      - .. image:: https://github.com/MacHu-GWU/acore_soap_app (Legacy)-project/actions/workflows/main.yml/badge.svg
-            :target: https://github.com/MacHu-GWU/acore_soap_app (Legacy)-project/actions?query=workflow:CI
+    * - `acore_soap_app <https://github.com/MacHu-GWU/acore_soap_app-project>`_
+      - (Legacy) Azerothcore World of Warcraft Soap Remote Access Python Library.
+      - .. image:: https://readthedocs.org/projects/acore-soap-app/badge/?version=latest
+            :target: https://acore-soap-app.readthedocs.io/en/latest/
+      - .. image:: https://img.shields.io/pypi/v/acore-soap-app.svg
+            :target: https://pypi.python.org/pypi/acore-soap-app
+      - .. image:: https://github.com/MacHu-GWU/acore_soap_app-project/actions/workflows/main.yml/badge.svg
+            :target: https://github.com/MacHu-GWU/acore_soap_app-project/actions?query=workflow:CI
     * - `acore_server_monitoring_core <https://github.com/MacHu-GWU/acore_server_monitoring_core-project>`_
       - Azerothcore Server monitoring core Python library.
       - .. image:: https://readthedocs.org/projects/acore-server-monitoring-core/badge/?version=latest
